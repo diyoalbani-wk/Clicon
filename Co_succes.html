@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Shoping Card | CliCon</title>
+  <title>Check Out | CliCon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="images/kr-removebg-preview.png">
 </head>
-<body clas
-
->
+<body>
 
 <header>
     <nav class="bg-[#1e6ea1] py-2">
@@ -131,146 +129,53 @@
         </div>
 
         <div class="flex text-gray-500 hover:text-blue-500 items-center">
-            Shoping Card
+            Check Out
         </div>
     </div>
 </section>
 
-<section class="max-w-7xl mx-auto px-4 py-10">
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<section class="container mx-auto">
+    <div class="flex flex-col justify-center items-center space-y-3 py-28">
+        <svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.2" d="M44 77C62.2254 77 77 62.2254 77 44C77 25.7746 62.2254 11 44 11C25.7746 11 11 25.7746 11 44C11 62.2254 25.7746 77 44 77Z" fill="#2DB324"/>
+        <path d="M59.125 35.75L38.9469 55L28.875 45.375" stroke="#2DB324" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M44 77C62.2254 77 77 62.2254 77 44C77 25.7746 62.2254 11 44 11C25.7746 11 11 25.7746 11 44C11 62.2254 25.7746 77 44 77Z" stroke="#2DB324" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
 
-    <div class="lg:col-span-2 rounded-lg overflow-hidden">
-      <div class="px-6 py-4 text-xl border font-bold">
-        Shopping Cart
-      </div>
+        <h1 class="font-bold text-xl">
+            Your order is successfully place
+        </h1>
 
-      <div class="hidden md:grid grid-cols-12 px-6 py-3 text-sm border font-semibold bg-gray-100">
-        <div class="col-span-5">PRODUCTS</div>
-        <div class="col-span-2">PRICE</div>
-        <div class="col-span-3">QUANTITY</div>
-        <div class="col-span-2">SUB-TOTAL</div>
-      </div>
-
-      <div class="grid grid-cols-12 items-center px-6 py-4 border gap-4">
-        <div class="col-span-12 md:col-span-5 flex items-center gap-4">
-          <button class="text-gray-400 hover:text-red-500">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#929FA5" stroke-width="1.5" stroke-miterlimit="10"/>
-            <path d="M15 9L9 15" stroke="#929FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15 15L9 9" stroke="#929FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-          <img src="images/Image (12).png" class="w-14 h-14 border rounded">
-          <p class="text-sm">
-            4K UHD LED Smart TV with Chromecast Built-in
-          </p>
+        <div class="flex flex-col text-gray-500 font-semibold text-sm items-center">
+            <p>
+                Pellentesque sed lectus nec tortor tristique accumsan quis 
+            </p>
+            <p>
+                dictum risus. Donec volutpat mollis nulla non facilisis.
+            </p>
         </div>
 
-        <div class="col-span-6 md:col-span-2 text-sm">
-          <span class="line-through text-gray-400 mr-1">$99</span>
-          <span class="font-medium">$70</span>
+        <div class="flex gap-4 py-6">
+            <button class="flex gap-2 text-orange-500  border border-orange-200 p-4 rounded text-sm font-medium">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2664_1456)">
+                <path d="M2.5 13.75L10 18.125L17.5 13.75" stroke="#FA8232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2.5 10L10 14.375L17.5 10" stroke="#FA8232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2.5 6.25L10 10.625L17.5 6.25L10 1.875L2.5 6.25Z" stroke="#FA8232" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_2664_1456">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                Go To Dashboard
+            </button>
+            <button class=" bg-orange-500 text-white p-4 rounded text-sm font-medium">
+                PLACE ORDER →
+            </button>
         </div>
-
-        <div class="col-span-6 md:col-span-3">
-          <div class="flex items-center border rounded w-fit font-semibold">
-            <button class="px-3 py-1">−</button>
-            <span class="px-4">01</span>
-            <button class="px-3 py-1">+</button>
-          </div>
-        </div>
-
-        <div class="col-span-12 md:col-span-2  font-medium">
-          $70
-        </div>
-      </div>
-
-      <div class="grid grid-cols-12 items-center border px-6 py-4 gap-4">
-        <div class="col-span-12 md:col-span-5 flex items-center gap-4">
-          <button class="text-red-500">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#EE5858" stroke-width="1.5" stroke-miterlimit="10"/>
-            <path d="M15 9L9 15" stroke="#EE5858" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15 15L9 9" stroke="#EE5858" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-          <img src="images/1.png" class="w-14 h-14 border rounded">
-          <p class="text-sm">
-            Wired Over-Ear Gaming Headphones with USB
-          </p>
-        </div>
-
-        <div class="col-span-6 md:col-span-2 text-sm font-medium">
-          $250
-        </div>
-
-        <div class="col-span-6 md:col-span-3">
-          <div class="flex items-center border rounded w-fit font-semibold">
-            <button class="px-3 py-1">−</button>
-            <span class="px-4">03</span>
-            <button class="px-3 py-1">+</button>
-          </div>
-        </div>
-
-        <div class="col-span-12 md:col-span-2 font-medium">
-          $250
-        </div>
-      </div>
-
-      <div class="flex flex-col sm:flex-row justify-between gap-4 px-6 py-4 border">
-        <button class="border border-blue-500 text-blue-500 px-5 py-2 rounded font-semibold text-sm">
-          ← RETURN TO SHOP
-        </button>
-        <button class="bg-blue-500 text-white px-5 py-2 rounded font-semibold text-sm">
-          UPDATE CART
-        </button>
-      </div>
     </div>
-
-    <div class="space-y-6">
-
-      <div class="border rounded-lg p-6">
-        <h3 class="font-semibold mb-4">Card Totals</h3>
-
-        <div class="space-y-3 text-sm">
-          <div class="flex justify-between">
-            <span>Sub-total</span>
-            <span class="font-semibold">$320</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Shipping</span>
-            <span class="font-semibold">Free</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Discount</span>
-            <span class="font-semibold">$24</span>
-          </div>
-          <div class="flex justify-between">
-            <span>Tax</span>
-            <span class="font-semibold">$61.99</span>
-          </div>
-          <hr>
-          <div class="flex justify-between font-bold">
-            <span>Total</span>
-            <span>$357.99 USD</span>
-          </div>
-        </div>
-
-        <button class="w-full mt-5 bg-orange-500 text-white py-3 rounded text-sm font-medium">
-          PROCEED TO CHECKOUT →
-        </button>
-      </div>
-
-      <div class="border rounded-lg p-6">
-        <h3 class="font-semibold mb-4">Coupon Code</h3>
-        <input type="text" placeholder="Email address"
-          class="w-full border rounded px-3 py-2 text-sm mb-3">
-        <button class="bg-blue-500 text-white px-4 py-2 rounded text-sm">
-          APPLY COUPON
-        </button>
-      </div>
-
-    </div>
-  </div>
 </section>
 
 <footer class="bg-[#111827] text-gray-400 pt-16 pb-6">
