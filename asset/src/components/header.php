@@ -44,7 +44,7 @@
                     placeholder="Search for anything..."
                     class="w-full md:w-[65%] px-4 py-2 rounded-l-md outline-none" />
                 <button class="bg-white px-4 rounded-r-md">
-                    <img src="images/MagnifyingGlass.png" alt="">
+                    <img src="asset/src/images/MagnifyingGlass.png" alt="">
                 </button>
             </div>
 
@@ -52,10 +52,10 @@
 
             <div class="lg:flex hidden lg:block items-center gap-5 text-white text-xl">
                 <a href="wishlist.php">
-                    <img src="images/ShoppingCartSimple.png" alt="">
+                    <img src="asset/src/images/ShoppingCartSimple.png" alt="">
                 </a>
-                <img src="images/Heart.png" alt="">
-                <img src="images/User.png" alt="">
+                <img src="asset/src/images/Heart.png" alt="">
+                <img src="asset/src/images/User.png" alt="">
             </div>
         </div>
     </nav>
